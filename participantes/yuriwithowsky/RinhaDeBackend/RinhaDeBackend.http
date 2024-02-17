@@ -1,0 +1,16 @@
+@RinhaDeBackend_HostAddress = http://localhost:3000
+
+GET {{RinhaDeBackend_HostAddress}}/clientes/1/extrato
+Accept: application/json
+
+###
+
+POST {{RinhaDeBackend_HostAddress}}/clientes/1/transacoes
+Content-Type: application/json
+
+{
+    "valor": 1000,
+    "tipo" : "c",
+    "descricao" : "descricao"
+}
+###

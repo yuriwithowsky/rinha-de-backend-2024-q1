@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34511.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RinhaDeBackend", "RinhaDeBackend\RinhaDeBackend.csproj", "{21F560B6-7927-4900-BC69-B8788256AD89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CBD15DB-B6D9-44FE-B3E6-192757CF1666}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		init.sql = init.sql
+		nginx.conf = nginx.conf
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F560B6-7927-4900-BC69-B8788256AD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F560B6-7927-4900-BC69-B8788256AD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F560B6-7927-4900-BC69-B8788256AD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F560B6-7927-4900-BC69-B8788256AD89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C638548C-23DF-4D67-890C-25DECE3DF91E}
+	EndGlobalSection
+EndGlobal
